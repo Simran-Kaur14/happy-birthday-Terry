@@ -1,0 +1,115 @@
+/* Almendra Display Italianno Lavishly Yours #f9ebf2 #eba2b9 #bf3054 #260309*/
+
+/* index.ejs styling, it didn't really have that much to be styled. */
+body {
+    background-color: #f9ebf2;
+}
+
+/* greeting.ejs styling */
+.body-emphasis{
+    color: #260309;
+    font-family: "Lavishly Yours";
+    font-size: 6rem;
+}
+
+.col-lg-8.mx-auto.fs-5 {
+    font-family: "Almendra Display";
+    font-weight: 600;
+    color: darkorchid;
+}
+
+.btn.btn-outline-secondary.btn-lg.px-4.rounded-pill {
+    color: #260309;
+    font-family: "Lavishly Yours";
+    font-size: 2rem;
+}
+
+/* options.ejs styling */
+
+.buttons-wrapper{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+  gap: 10px;                             /* Adjusts spacing between images */
+  width: 100%;                           /* Adapts to container size */
+  max-width: 500px;                      /* Sets maximum total size */
+  place-items: center;
+}
+
+.home-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 200px; 
+}
+
+.buttons-title{
+    color: #260309;
+    font-family: "Italianno";
+}
+
+/* letter.ejs stlings */
+
+.letter-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* gifts.ejs stylings */
+
+
+.gifts-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.note{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 20px;
+}
+
+.note-h2{
+    font-family: "Italianno";
+    color: #bf3054 ;
+}
+
+/* flowers.ejs styling */
+.flower-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower-title-words{
+    font-family: "Italianno";
+    color: #bf3054;
+    font-size: 4rem;
+}
+
+/* photos.ejs styling */
+
+.photo-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wishes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wishes-note{
+    font-family: "Italianno";
+    color: #bf3054;
+    font-size: 4rem;
+}
